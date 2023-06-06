@@ -1,23 +1,37 @@
 .web {
   background-color: #CCCCCC;
   padding: 16px 16px;
-  border: 1px #121212 solid;
+  border: 1px #A3A3A3 solid;
   border-radius: 20px 20px;
   width: 250px;
 }
 
 .title {
-  color: black;
-  display: inline;
-  margin: 10px 10px 10px 10px;
+  color: rgb(13, 112, 204);
+  display: inline-block;
+  margin: 0 10px 10px 0px;
+  font-weight: 600;
 }
 
 .first-image {
   margin-left: 0;
+  margin-right: 20px;
   float: left;
-
 }
 
 .second-image {
   float: right;
+}
+
+h3 {
+  margin: auto;
+}
+
+.description {
+  margin: 0 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
