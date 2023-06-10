@@ -1,0 +1,189 @@
+/* @숨김 컨텐츠 작업 */
+.a11y, legend {
+  background: yellow;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: polygon(0 0, 0 0, 0 0);
+}
+
+/*@ meyerweb에서 긁어온 코드 */
+/*@ 전체 리셋 코드 */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain) */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.15;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input, button, textarea, select, option {
+  font-size: 14px;
+}
+
+/*@ 메인 콘텐츠 */
+.main-content {
+  margin: 100px;
+  width: 300px;
+}
+
+
+/*@ 로그인 */
+.login {
+  background: radial-gradient(circle at right top, orange, orangered);
+  box-shadow: 5px 5px 0 0 #ccc;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.login-title {
+  color: yellow;
+  font-size: 18px;
+  font-weight: 700;
+  text-indent: 0.5em;
+}
+
+/*@ 로그인 폼 */
+.login-form {
+  margin-top: 10px;
+  background: #fff;
+  padding: 10px 10px 0 10px;
+  border-radius: 5px 5px 0 0;
+}
+
+.login-form fieldset {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #aaa;
+  position: relative;
+}
+
+.user-email, .user-pw {
+  font-size: 0;
+}
+
+.user-pw {
+  margin-top: 5px;
+}
+
+.login-form label {
+  display: inline-block;
+  width: 60px;
+  font-size: 14px;
+}
+
+.login-form input {
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  width: 120px;
+  height: 24px;
+  padding: 1px 1px 1px 5px;
+}
+
+.login-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 3px;
+  background: orangered;
+  color: #fff;
+  font-size: 14px;
+  padding: 0;
+  border: 0;
+  width: 50px;
+  height: 61px;
+}
+
+/*@ ul링크들 */
+.login-member {
+  background: #fff;
+  padding: 4px;
+  border-radius: 0 0 5px 5px;
+  display: flow-root;
+}
+
+.login-member li:first-child {
+  float: left;
+}
+
+.login-member li:last-child {
+  float: right;
+}
+
+.login-member a {
+  display: block;
+  padding: 6px;
+}
+
+
+
+
+/* $유효성 검사 */
+.validation-list {
+  margin-top: 25px;
+}
+
+.validation-list li {
+  margin: 10px 0;
+}
+
+.validation-list a {    /** a가 블록이기때문에 가능하다. */
+  padding: 10px 10px 8px 50px;
+  background: url(./../assets/validation.png) no-repeat 25px 50%, 
+  linear-gradient(to bottom, #ccc, #eee);
+  display: block;
+  border: 1px solid #aaa;
+  border-radius: 30px;
+}
+
+
+
+
+
+
+
