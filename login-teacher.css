@@ -182,6 +182,55 @@ input, button, textarea, select, option {
 }
 
 
+/* $웹 관련 용어 */
+.term {
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background: #ccc;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.term-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
+.term-list-wrapper {
+  margin-top: 10px;
+  display: flow-root;
+}
+
+.term-list-subject {
+  float: right;
+  width: 200px;
+  color: #296897;
+  font-weight: 700;
+}
+
+.term-list-thumbnail {
+  float: left;
+}
+
+.term-list-thumbnail img {
+  display: block;
+}
+
+.term-list-brief {
+  float: right;
+  width: 200px;
+  margin-top: 5px;
+}
+
+.cross .term-list-subject, 
+.cross .term-list-brief {
+  float: left;
+}
+
+.cross .term-list-thumbnail {
+  float: right;
+}
 
 
 
