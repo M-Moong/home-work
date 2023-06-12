@@ -1,0 +1,95 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+figure {
+  width: 152px;
+  margin: 0 0 0 0;
+}
+
+figcaption {
+  text-align: center;
+}
+
+/* .news {
+  color: #ED552F;
+} */
+
+.container {
+  display: grid;
+  width: 450px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  padding: 0 15px;
+
+  /* !그리드 요소 */
+  grid-template-columns: repeat(6, auto);
+  grid-template-rows: auto;
+  /* 적용안되는 이유를 아직 모르겠음. */
+  /* grid-template-areas: 
+  "1 1 1 1 2"
+  "1 1 1 1 2"
+  "1 1 1 1 2"
+  "1 1 1 1 2"
+  "1 1 1 1 6"
+  ; */
+
+  /* # 재적용 성공 ! */
+  grid-template-areas: 
+  "news news news news news plus "
+  "W3C W3C W3C title title . "
+  "W3C W3C W3C date . . "
+  "W3C W3C W3C description description description "
+  "W3C W3C W3C description description description "
+  ;
+
+
+}
+
+.news {
+  /* grid-area: 1 / 1 / 2 / 5; */
+  grid-area: news;
+  margin-bottom: 10px;
+  color: #ED552F;
+  border-bottom: 1px solid;
+  border-image:linear-gradient(09deg, #a9a9a9 0%, white 60%);
+  border-image-slice: 1;
+  padding-bottom: 10px;
+}
+
+.plus {
+  /* grid-area: 1 / 5 / 2 / 6; */
+  grid-area: plus;
+  width: 70px;
+  height: 30px;  
+  margin-top: 20px;
+  text-align: center;
+  padding-bottom: 9px;
+}
+
+.W3C {
+  /* grid-area: 2 / 1 / 5 / 3; */
+  grid-area: W3C;
+  padding-bottom: 10px;
+}
+
+.title {
+  /* grid-area: 2 / 3 / 3 / 6; */
+  grid-area: title;
+  white-space: nowrap;
+}
+
+.date {
+  /* grid-area: 3 / 3 / 4 / 4; */
+  grid-area: date;
+}
+
+.description {
+  /* grid-area: 4 / 3 / 5 / 6; */
+  grid-area: description;
+  margin-top: 0;
+}
+
