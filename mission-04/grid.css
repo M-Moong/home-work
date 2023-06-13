@@ -12,10 +12,6 @@ figcaption {
   text-align: center;
 }
 
-/* .news {
-  color: #ED552F;
-} */
-
 .container {
   display: grid;
   width: 450px;
@@ -45,13 +41,11 @@ figcaption {
   "W3C W3C W3C description description description "
   "W3C W3C W3C description description description "
   ;
-
-
 }
 
 .news {
-  /* grid-area: 1 / 1 / 2 / 5; */
   grid-area: news;
+  /* grid-area: 1 / 1 / 2 / 5; */
   margin-bottom: 10px;
   color: #ED552F;
   border-bottom: 1px solid;
@@ -61,8 +55,8 @@ figcaption {
 }
 
 .plus {
-  /* grid-area: 1 / 5 / 2 / 6; */
   grid-area: plus;
+  /* grid-area: 1 / 5 / 2 / 6; */
   width: 70px;
   height: 30px;  
   margin-top: 20px;
@@ -71,25 +65,25 @@ figcaption {
 }
 
 .W3C {
-  /* grid-area: 2 / 1 / 5 / 3; */
   grid-area: W3C;
+  /* grid-area: 2 / 1 / 5 / 3; */
   padding-bottom: 10px;
 }
 
 .title {
-  /* grid-area: 2 / 3 / 3 / 6; */
   grid-area: title;
+  /* grid-area: 2 / 3 / 3 / 6; */
   white-space: nowrap;
 }
 
 .date {
-  /* grid-area: 3 / 3 / 4 / 4; */
   grid-area: date;
+  /* grid-area: 3 / 3 / 4 / 4; */
 }
 
 .description {
-  /* grid-area: 4 / 3 / 5 / 6; */
   grid-area: description;
+  /* grid-area: 4 / 3 / 5 / 6; */
   margin-top: 0;
 }
 
