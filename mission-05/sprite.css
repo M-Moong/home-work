@@ -79,3 +79,21 @@ ol>li:nth-child(4)::before {
   content: "4";
 }
 
+li {
+  background: url(rank.png) no-repeat;
+}
+
+.popular-up {
+  background-position: right top;
+}
+
+.popular-mid {
+  background-position: right;
+}
+
+.popular-down {
+  background-position: right bottom;
+}
+
+
+
