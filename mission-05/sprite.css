@@ -1,0 +1,81 @@
+body {
+  margin: 50px;
+}
+
+.wrapper {
+  background: linear-gradient(180deg, #CCCCCC 0%, #EEEEEE 100%);
+  border: 1px solid #A3A3A3;
+  border-radius: 5px;
+  width: 162px;
+  height: 123px;
+  padding: 12px;
+  position: relative;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22.5px;
+}
+
+.site {
+  color: #ED552F;
+}
+
+.more {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.popular {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 8px;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+li::before {
+  position: absolute;
+  content: "2";
+  display: block;
+  width: 8px;
+  height: 8px;
+  top: 0;
+  left: 0;
+  background: #A3A3A3;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  padding: 2px 4px 4px 4px;
+}
+
+ol>li:nth-child(1)::before {
+  content: "1";
+}
+
+ol>li:nth-child(2)::before {
+  content: "2";
+}
+
+ol>li:nth-child(3)::before {
+  content: "3";
+}
+
+ol>li:nth-child(4)::before {
+  content: "4";
+}
+
