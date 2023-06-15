@@ -65,7 +65,7 @@ li::before {
 
 /** 스프라이트 이미지 배경으로 설정하기 */
 li {
-  background: url(rank.png) no-repeat;
+  background: url(rank.png) no-repeat 0 0 / 9px 400%;
 }
 
 /* #원래는 하나씩 content를 주었습니다.
@@ -101,7 +101,7 @@ ol>li::before {
 }
 
 .popular-mid {
-  background-position: right;
+  background-position: right center;
 }
 
 .popular-down {
